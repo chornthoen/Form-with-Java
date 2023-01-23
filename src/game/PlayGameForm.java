@@ -1,4 +1,4 @@
-package demo2;
+package game;
 
 import javax.swing.*;
 import java.awt.*;
@@ -25,7 +25,7 @@ public class PlayGameForm extends JFrame implements ActionListener{
 	public void initUI() {
 		c=getContentPane();
 		c.setLayout(null);
-		l1=new JLabel("Play Random Game Lottory !!");
+		l1=new JLabel("Employee Form");
 		l1.setBounds(100,30,200,20);
 		c.add(l1);
 		l2=new JLabel("Your num");

@@ -1,4 +1,4 @@
-package testui1;
+package order_product;
 
 public class OrderProduct {
 	private String code;
