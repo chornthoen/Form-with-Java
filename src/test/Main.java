@@ -6,3 +6,6 @@ public class Main {
 
     }
 }
+
+//What is the array?
+//An array is a collection of similar type of data items stored at contiguous memory locations.

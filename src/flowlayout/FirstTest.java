@@ -22,7 +22,11 @@ public class FirstTest extends JFrame {
         btn4 = new JButton("Four");
         btn5 = new JButton("Five");
         p = new JPanel();
-        //p.setLayout(new FlowLayout());
+
+
+
+       //p.setLayout(new FlowLayout());
+
         //p.setLayout(new GridLayout(3,2));
         p.setLayout(new BorderLayout());
 

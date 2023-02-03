@@ -59,6 +59,8 @@ public class Registration {
     public void setMobile(String mobile) {
         this.mobile = mobile;
     }
+    public Registration() {
+    }
 
     public Registration(String name, String gender, String mobile, String month, String day, String year, String address) {
         this.name = name;
@@ -68,6 +70,7 @@ public class Registration {
         this.month = month;
         this.year = year;
         this.address = address;
+
     }
     public String toString(){
         return getName()+", "+getMobile()+", "+getGender()+", "+getDay()+"-"+getMonth()+"-"+getYear()+", "+getAddress()+"\n";
