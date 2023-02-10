@@ -70,7 +70,6 @@ public class StudentForm extends JFrame {
             String name = txtName.getText();
             String group = cboGroup.getSelectedItem().toString();
             output.setText("ID: " + id + " ,Name: " + name + " ,Group: " + group);
-           // output.append(id,name,group);
 
         });
     }
