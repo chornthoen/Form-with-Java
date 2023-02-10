@@ -7,7 +7,7 @@ public class StudentForm extends JFrame {
     private JLabel lblStudentForm,lblID, lblName, lblGroup;
     private JTextField txtID, txtName;
     private JButton btnAdd;
-    private JComboBox<Object> cboGroup;
+    private JComboBox cboGroup;
     private JTextArea output;
     private Container ct;
 
@@ -47,7 +47,7 @@ public class StudentForm extends JFrame {
         lblGroup = new JLabel("Group:");
         lblGroup.setBounds(100, 140, 50, 20);
         ct.add(lblGroup);
-        cboGroup = new JComboBox<>();
+        cboGroup = new JComboBox();
         cboGroup.addItem("A1");
         cboGroup.addItem("A2");
         cboGroup.addItem("A3");
